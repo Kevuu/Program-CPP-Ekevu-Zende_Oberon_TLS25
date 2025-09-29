@@ -50,7 +50,7 @@ string decodeMachine(const string &password) {
             kanan.push_back(c);
     }
 
-    if (digits.empty()) return password;
+    if (tengah.empty()) return password;
 
     int asciiInt = stoi(tengah);
     char asciiChar = static_cast<char>(asciiInt);
@@ -75,4 +75,5 @@ int main() {
     cout <<"Hasil kedua :"<<decode<<" --> "<< decodeMachine(decode) << endl;
 
     return 0;
+
 }
