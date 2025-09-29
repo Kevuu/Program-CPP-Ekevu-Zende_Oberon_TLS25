@@ -1,4 +1,3 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <string>
 using namespace std;
@@ -33,4 +32,5 @@ int main() {
     cin >> second;
     string lamp = currentlampcolor(second);
     cout << "Lampu sekarang berwarna " << lamp;
+
 }
